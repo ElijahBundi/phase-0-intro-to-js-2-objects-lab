@@ -14,7 +14,7 @@ function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
 }
 
 function deleteFromEmployeeByKey(employee, key) {
-    const employeeClone = {...employee}
+    const employeeClone =  {...employee}
     delete employeeClone[key]
     return employeeClone
 }
